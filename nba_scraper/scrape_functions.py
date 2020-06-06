@@ -38,6 +38,10 @@ USER_AGENT = {
     "Referer": "https://stats.nba.com/",
 }
 
+# test if package is properly imported from github
+def test_package_download():
+    print("success")
+
 
 def get_date_games(from_date, to_date):
     """

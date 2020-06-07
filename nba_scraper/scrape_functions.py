@@ -40,7 +40,7 @@ USER_AGENT = {
 
 # test if package is properly imported from github
 def test_package_download():
-    print("success")
+    return 'success'
 
 
 def get_date_games(from_date, to_date):
